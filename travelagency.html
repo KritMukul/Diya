@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travique - Explore the World</title>
+  <link rel="icon" href="Pics/travel icon.jpg">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
+  <style>
+    nav{
+        display: flex;
+        background-color: rgb(236, 193, 193);
+        height: 80px;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .left{
+        width: 100px;
+    }
+    nav ul{
+        justify-content: center;
+        display: flex;
+    }
+    nav ul li {
+        list-style: none;
+        margin: 0 23px;
+        font-size: 1.2rem;
+      }
+      
+      nav ul li a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        transition: 0.3s;
+      }
+      nav ul li a:hover{
+        border: 1.5px white solid;
+        padding: 2px 8px;
+        border-radius: 5px;
+        color: rgb(255, 255, 255);
+        background-color: rgb(0,0,0,0.5);
+      }
+    .right{
+        width: 600px;
+        display: flex;
+    }
+    img{
+        width: 100%;
+    }
+   
+    .carousel-caption {
+        background: rgba(0,0,0,0.4);
+        padding: 20px;
+        border-radius: 12px;
+    }
+    .carousel-caption h1 {
+        font-family: "Dancing Script", cursive;
+        font-size: 3rem;
+        color: white;
+    }
+    .intro-section {
+        padding: 60px 20px;
+        text-align: center;
+        background-color: #f9f9f9;
+    }
+    .intro-section h2 {
+        font-family: "Dancing Script", cursive;
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
+    .intro-section p {
+        font-size: 1.1rem;
+        max-width: 800px;
+        margin: auto;
+        color: #333;
+    }
+  </style>
+
+</head>
+<body background="Pics/travel pic 1.jpeg">
+
+  <nav>
+      <div class="left">
+          <h1>Travique</h1>
+      </div>
+      <div class="right">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="packages.html">Package</a></li>
+            <li><a href="">Bookings</a></li>
+            <li><a href="Gallery.html">Gallery</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+      </div>
+  </nav>
+
+  <div id="carouselExample" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img style="width: 100%;height:650px;" src="Pics/travel pic 1.jpeg" class="d-block w-100" alt="...">
+        <div class="carousel-caption">
+          <h1>Discover the World with Travique</h1>
+          <p>Your journey to breathtaking destinations starts here.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img style="width: 100%;height:650px;" src="Pics/travel pic 2.jpeg" class="d-block w-100" alt="...">
+        <div class="carousel-caption">
+          <h1>Adventure Awaits</h1>
+          <p>Explore, dream, and discover with us.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img style="width: 100%;height:650px;" src="Pics/travle pic 3.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption">
+          <h1>Unforgettable Memories</h1>
+          <p>Travel with comfort, style, and peace of mind.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Introduction Section -->
+  <section class="intro-section">
+    <h2>Welcome to Travique</h2>
+    <p>
+      At Travique, we believe travel is more than just visiting places – 
+      it’s about creating lifelong memories. From exotic beaches to majestic mountains, 
+      we bring you the best travel experiences, personalized packages, and easy bookings.  
+      Let us be your guide as you explore the wonders of the world.
+    </p>
+  </section>
+  <center>
+    <img src="Pics/g2.jpg" alt="">
+<video width="500" height="300" controls style="transform: rotate(-90deg);">
+  <source src="Video/vdeo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+  </center>
+
+</body>
+</html>

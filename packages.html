@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Packages - Travique</title>
+  <style>
+    nav{
+      display: flex;
+      background-color: rgb(236, 193, 193);
+      height: 80px;
+      align-items: center;
+      justify-content: space-around;
+    }
+    .left{
+      width: 100px;
+    }
+    nav ul{
+      justify-content: center;
+      display: flex;
+    }
+    nav ul li {
+      list-style: none;
+      margin: 0 23px;
+      font-size: 1.2rem;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+      transition: 0.3s;
+    }
+    nav ul li a:hover{
+      border: 1.5px white solid;
+      padding: 2px 8px;
+      border-radius: 5px;
+      color: rgb(255, 255, 255);
+      background-color: rgb(0,0,0,0.5);
+    }
+
+    
+    table {
+      border-collapse: collapse;
+      width: 80%;
+      margin: 40px auto;
+      font-size: 1rem;
+    }
+    th, td {
+      border: 1px solid #999;
+      padding: 12px;
+      text-align: center;
+    }
+    th {
+      background-color: gray;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+    caption {
+      caption-side: top;
+      font-size: 1.5rem;
+      margin-bottom: 15px;
+      font-weight: bold;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="left">
+      <h1>Travique</h1>
+    </div>
+    <div class="right">
+      <ul>
+        <li><a href="travelagency.html">Home</a></li>
+        <li><a href="#">Package</a></li>
+        <li><a href="">Bookings</a></li>
+        <li><a href="Gallery.html">Gallery</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <table>
+    
+    <center><h1>Our Most Popular Packages</h1></center>
+    <tr>
+      <th>Package Name</th>
+      <th>Destination</th>
+      <th>Duration</th>
+      <th>Inclusions</th>
+      <th>Price (per person)</th>
+    </tr>
+
+    <tr>
+      <td>Goa Beach Escape</td>
+      <td>Goa</td>
+      <td>3N / 4D</td>
+      <td>Hotel, Meals, Local Sightseeing</td>
+      <td>₹14,999</td>
+    </tr>
+
+    <tr>
+      <td>Himalayan Adventure</td>
+      <td>Manali & Kasol</td>
+      <td>5N / 6D</td>
+      <td>Hotel, Camping, Transport</td>
+      <td>₹22,499</td>
+    </tr>
+
+    <tr>
+      <td>Europe Delight</td>
+      <td>Paris, Rome, Venice</td>
+      <td>7N / 8D</td>
+      <td>Flights, Hotel, Meals, Tours</td>
+      <td>₹1,20,000</td>
+    </tr>
+  </table>
+
+</body>
+</html>
